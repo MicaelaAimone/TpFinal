@@ -2,7 +2,7 @@ package hotel;
 
 public interface Controlador {
 	
-	public abstract void habitacionesOcu();
+	public abstract void habitaciones();
 	public abstract void habitacionesDisp();
 	
 }
