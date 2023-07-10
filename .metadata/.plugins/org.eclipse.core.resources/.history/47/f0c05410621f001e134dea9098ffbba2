@@ -22,6 +22,7 @@ public abstract class Personas {
 	}
 	
 	//Accedo a los datos con getter
+	
 
 	public String getNombre() {
 		return nombre;

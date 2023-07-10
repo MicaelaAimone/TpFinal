@@ -17,7 +17,7 @@ public abstract class Habitacion {
 		this.ocupado = true;
 	}
 	
-	//Accedo a los datos con getter
+	//getters
 
 	public byte getIdHabitacion() {
 		return idHabitacion;

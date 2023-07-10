@@ -18,24 +18,6 @@ public class Cliente extends Personas {
 	}
 
 	
-	//Accedo a los datos con getter
-
-	public int getIdCliente() {
-		return idCliente;
-	}
-
-
-	public byte getCantPersonas() {
-		return cantPersonas;
-	}
-
-
-	public String getDomicilioOrigen() {
-		return domicilioOrigen;
-	}
-
-
-	
 
 	
 }

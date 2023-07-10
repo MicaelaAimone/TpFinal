@@ -17,28 +17,10 @@ public class Personal extends Personas{
 		this.horasSemanales = horasSemanales;
 		this.estado = estado;
 	}
-
-	//Accedo a los datos con getter
-	
-	public byte getIdPersonal() {
-		return idPersonal;
-	}
-
-
-	public float getSueldo() {
-		return sueldo;
-	}
-
-	public int getHorasSemanales() {
-		return horasSemanales;
-	}
-
-	public String getEstado() {
-		return estado;
-	}
 	
 	
-
+	
+	
 	
 	
 }

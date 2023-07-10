@@ -16,23 +16,7 @@ public class Reserva extends Habitacion{
 		this.idReserva = idReserva;
 		this.infoCliente = infoCliente;
 		this.infoHabitacion = infoHabitacion;
-
-	}	//Accedo a los datos con getter
-	
-
-	public int getIdReserva() {
-		return idReserva;
 	}
-
-	public int getInfoCliente() {
-		return infoCliente;
-	}
-
-	public int getInfoHabitacion() {
-		return infoHabitacion;
-	}
-	
-	
 	
 	
 	

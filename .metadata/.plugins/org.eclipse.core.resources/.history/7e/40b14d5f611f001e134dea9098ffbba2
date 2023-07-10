@@ -20,8 +20,6 @@ public abstract class Personas {
 		this.dni = dni;
 		this.domicilio = domicilio;
 	}
-	
-	//Accedo a los datos con getter
 
 	public String getNombre() {
 		return nombre;
