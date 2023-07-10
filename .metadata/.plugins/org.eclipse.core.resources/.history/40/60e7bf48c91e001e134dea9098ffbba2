@@ -1,0 +1,14 @@
+package hotel;
+
+public abstract class Personas {
+	
+	String nombre;
+	String apellido;
+	String genero;
+	String dni;
+	double sueldo;
+	int horasTrabajo;
+	String tipoTrabajo;
+	
+	
+}

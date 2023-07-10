@@ -1,0 +1,13 @@
+package hotel;
+
+public class Cliente extends Personas implements Controlador{
+
+	int idCliente;
+
+	public Cliente(String nombre, String apellido, String genero, String nacionalidad, String dni, int idCliente) {
+		super(nombre, apellido, genero, nacionalidad, dni);
+		this.idCliente = idCliente;
+	}
+
+	
+}

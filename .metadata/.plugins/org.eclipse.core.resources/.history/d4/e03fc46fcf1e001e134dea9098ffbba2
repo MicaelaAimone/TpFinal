@@ -1,0 +1,20 @@
+package hotel;
+
+public class Reserva implements Controlador{
+
+	//atributos
+	int idReserva;
+	int infoCliente; //id de cliente 
+	byte infoHabitacion; //id de habitacion
+	
+	@Override
+	public void habitacionesOcu() {
+		
+	}
+
+	@Override
+	public void habitacionesDisp() {
+		
+	}
+	
+}

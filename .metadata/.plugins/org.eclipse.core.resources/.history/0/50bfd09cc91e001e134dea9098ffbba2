@@ -1,0 +1,12 @@
+package hotel;
+
+public class Cliente extends Personas{
+
+	int idCliente;
+	
+	public Cliente(String nombre, String apellido, String genero, String nacionalidad, String dni) {
+		super(nombre, apellido, genero, nacionalidad, dni);
+		// TODO Auto-generated constructor stub
+	}
+
+}

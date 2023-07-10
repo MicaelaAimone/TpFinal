@@ -1,0 +1,15 @@
+package hotel;
+
+public class Reservas implements Controlador{
+
+	@Override
+	public void habitacionesOcu() {
+		
+	}
+
+	@Override
+	public void habitacionesDisp() {
+		
+	}
+	
+}

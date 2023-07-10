@@ -1,0 +1,13 @@
+package hotel;
+
+public class Personal extends Personas{
+	
+	byte idPersonal;
+
+	public Personal(String nombre, String apellido, String genero, String nacionalidad, String dni, byte idPersonal) {
+		super(nombre, apellido, genero, nacionalidad, dni);
+		this.idPersonal = idPersonal;
+	}
+	
+	
+}
