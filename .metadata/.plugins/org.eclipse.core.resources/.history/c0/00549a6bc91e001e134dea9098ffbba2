@@ -1,9 +1,0 @@
-package hotel;
-
-public class Cliente extends Personas{
-	 
-	byte idPersonal;
-	
-	
-
-}
