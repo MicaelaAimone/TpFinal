@@ -1,6 +1,9 @@
 package hotel;
 
-public class Reserva extends Habitacion{
+import hotel.Habitacion;
+import hotel.Cliente;
+
+public class Reserva{
 
 	//atributos
 	int idReserva;
@@ -10,14 +13,14 @@ public class Reserva extends Habitacion{
 	//fechaFin = checkout; java time
 	
 	//constructor
-	public Reserva(byte idHabitacion, byte piso, byte numero, boolean ocupado, int idReserva,
-			int infoCliente, int infoHabitacion) {
-		super(idHabitacion, piso, numero, ocupado);
+	public Reserva( int idReserva, int infoCliente, int infoHabitacion) {
 		this.idReserva = idReserva;
 		this.infoCliente = infoCliente;
 		this.infoHabitacion = infoHabitacion;
 
-	}	//Accedo a los datos con getter
+	}	
+	
+	//Accedo a los datos con getter
 	
 
 	public int getIdReserva() {
@@ -31,11 +34,6 @@ public class Reserva extends Habitacion{
 	public int getInfoHabitacion() {
 		return infoHabitacion;
 	}
-	
-	
-	
-	
-	
 
 
 }

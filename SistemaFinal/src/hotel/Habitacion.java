@@ -1,34 +1,27 @@
 package hotel;
 
-public abstract class Habitacion {
+public class Habitacion {
 	
 	//atributos
-	byte idHabitacion;
-	byte piso;
-	byte numero;
+	short numero; // como los nros son por ej = "304" el primer nro es el piso y los dos siguientes el nro de habitacion
 	boolean ocupado;
+	byte estado;
 	
 	//constructor
-	public Habitacion(byte idHabitacion, byte piso, byte numero, boolean ocupado) {
+	public Habitacion( short numero, boolean ocupado, byte estado) {
 		super();
-		this.idHabitacion = idHabitacion;
-		this.piso = piso;
 		this.numero = numero;
-		this.ocupado = true;
+		this.ocupado = false;
+		this.estado = estado;
 	}
 	
 	//Accedo a los datos con getter
-
-	public byte getIdHabitacion() {
-		return idHabitacion;
+	
+	public byte getEstado() {
+		return estado;
 	}
 
-
-	public byte getPiso() {
-		return piso;
-	}
-
-	public byte getNumero() {
+	public short getNumero() {
 		return numero;
 	}
 
@@ -40,9 +33,6 @@ public abstract class Habitacion {
 	public void setOcupado(boolean ocupado) {
 		this.ocupado = ocupado;
 	}
-
-	
-	
 
 
 }

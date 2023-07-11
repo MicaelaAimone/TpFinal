@@ -3,18 +3,16 @@ package hotel;
 public class Cliente extends Personas {
 
 	//atributos
-	int idCliente;
+	int idCliente; //con el id se si el cliente ya vino alguna vez
 	byte cantPersonas;
-	String domicilioOrigen;
 	
 
 	//constructor
-	public Cliente(String nombre, String apellido, String genero, String nacionalidad, String dni, String domicilio,
-			int idCliente, byte cantPersonas, String domicilioOrigen) {
-		super(nombre, apellido, genero, nacionalidad, dni, domicilio);
+	public Cliente(String nombre, String apellido, String genero, String nacionalidad, String ciudad, String dni, String domicilio,
+			int idCliente, byte cantPersonas) {
+		super(nombre, apellido, genero, nacionalidad, dni, ciudad, domicilio);
 		this.idCliente = idCliente;
 		this.cantPersonas = cantPersonas;
-		this.domicilioOrigen = domicilioOrigen;
 	}
 
 	
@@ -28,14 +26,6 @@ public class Cliente extends Personas {
 	public byte getCantPersonas() {
 		return cantPersonas;
 	}
-
-
-	public String getDomicilioOrigen() {
-		return domicilioOrigen;
-	}
-
-
 	
-
 	
 }

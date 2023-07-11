@@ -7,16 +7,18 @@ public abstract class Personas {
 	String apellido;
 	String genero;
 	String nacionalidad;
+	String ciudad;
 	String dni;
 	String domicilio;
 	
 	//constructor
-	public Personas(String nombre, String apellido, String genero, String nacionalidad, String dni, String domicilio) {
+	public Personas(String nombre, String apellido, String genero, String nacionalidad,	String ciudad, String dni, String domicilio) {
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.genero = genero;
 		this.nacionalidad = nacionalidad;
+		this.ciudad = ciudad;
 		this.dni = dni;
 		this.domicilio = domicilio;
 	}
@@ -39,6 +41,10 @@ public abstract class Personas {
 		return nacionalidad;
 	}
 
+	public String getCiudad() {
+		return ciudad;
+	}
+	
 	public String getDni() {
 		return dni;
 	}
